@@ -4,7 +4,6 @@ const Footer = () => {
   return (
     <>
       <div className={styles.footerContent}>
-        {/*LADO ESQUERDO*/}
         <div className={styles.footerLeft}>
           <ul className={styles.footerItems}>
             <li>Português (Brasil)</li>
@@ -14,10 +13,9 @@ const Footer = () => {
             <li>Italiano</li>
           </ul>
         </div>
-        {/*LADO DIREITO*/}
         <div className={styles.footerRight}>
           <ul>
-            <li>The Games &copy; 2024 JR</li>
+            <li>The Games &copy; 2024 <strong>Juliano Rodrigues</strong></li>
           </ul>
         </div>
       </div>

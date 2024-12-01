@@ -1,9 +1,10 @@
 import Head from "next/head";
 import Container from "@/components/Container/index";
-import LoginContent from "@/components/LoginContent/index";
+import Menu from "@/components/Menu";
 import Footer from "@/components/Footer";
+import EditGame from "@/components/Edit/index";
 
-export default function Home() {
+export default function Homepage() {
   return (
     <>
       <Head>
@@ -16,8 +17,9 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main>
+        <Menu />
         <Container>
-          <LoginContent />
+          <EditGame />
         </Container>
         <Footer />
       </main>
