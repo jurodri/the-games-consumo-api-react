@@ -15,7 +15,7 @@ const Footer = () => {
         </div>
         <div className={styles.footerRight}>
           <ul>
-            <li>The Games &copy; 2024 <strong>Juliano Rodrigues</strong></li>
+            <li>The Games JR &copy; 2024 <strong>Juliano Rodrigues</strong></li>
           </ul>
         </div>
       </div>
